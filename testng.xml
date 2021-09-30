@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "OptiSol Task">
+    <listeners>
+        <listener class-name= "Utils.ScreenShot"></listener>
+        <listener class-name= "Utils.ExtentReportListener"></listener>
+    </listeners>
+    <test name = "Interview Round 2">
+        <classes>
+            <class name="TestCases.Tests" />
+        </classes>
+    </test>
+</suite>
